@@ -1,0 +1,99 @@
+
+form{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-direction: column;
+    height: fit-content;
+}
+
+label{
+    width: 200px;
+}
+
+.login_button{
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 700;
+    border: none;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+}
+
+.input{
+    width: 90%;
+    height: 40px;
+    border: none;
+    font-family: 'Arial';
+}
+
+.input:focus{
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    outline: none !important; /* Additionally remove the outline */
+}
+
+.h1a{
+    display: flex;
+    justify-content: center;
+}
+
+.icon_input{
+    border-bottom: 1px solid rgba(131, 130, 131, 0.88);
+}
+
+.container2{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+body{
+    height: 100vh;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+.login_form{
+    background-color: white;
+    display: flex;
+    width: 500px;
+    height: 700px;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 100px;
+    border-radius: 30px;
+    gap: 120px;
+}
+
+.social-media-signup-class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon-class{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.signup-class{
+
+    display: flex;
+    flex-direction: column;
+}
